@@ -1,0 +1,17 @@
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# System
+.DS_Store
+.env
+
+# Docker
+# Dockerfileやdocker-composeは管理したいのでここは除外しません
+
+# Outputs & Data
+# 画像などの生成物は自動的に管理しない（必要なものだけ手動追加する運用）
+*/outputs/*
+# datasetsフォルダ内の大容量ファイルを除外する場合（一旦すべて除外しない設定にしておきます）
+# datasets/*

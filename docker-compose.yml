@@ -1,0 +1,25 @@
+services:
+  qml-lab-v2.0:
+    build: .
+    # Platform specification is commented out to allow auto-detection.
+    # If you are on Apple Silicon (M1/M2/M3) and face architecture issues,
+    # you can uncomment the following line:
+    # platform: linux/arm64
+    ports:
+      - "8888:8888"
+    volumes:
+      # Mount local directories to the container for persistence
+      - ./notebooks:/app/notebooks
+      - ./src:/app/src
+      - ./datasets:/app/datasets
+    environment:
+      # PREFORMANCE TUNING:
+      # Set this to the number of physical cores on your machine.
+      # (e.g., 8 for M1 Max, 4-6 for typical laptops)
+      - OMP_NUM_THREADS=8
+    deploy:
+      resources:
+        limits:
+          # Adjust memory limit according to your Docker Desktop settings.
+          # 8G is usually sufficient for small experiments; 16G for larger simulations.
+          memory: 16G
