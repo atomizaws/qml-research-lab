@@ -18,3 +18,6 @@ qiskit-dynamics>=0.5.0
 pennylane>=0.38.0
 pennylane-qiskit>=0.38.0
 pennylane-lightning>=0.38.0
+
+# Pytest
+pytest

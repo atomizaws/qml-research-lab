@@ -12,6 +12,7 @@ services:
       - ./notebooks:/app/notebooks
       - ./src:/app/src
       - ./datasets:/app/datasets
+      - ./tests:/app/tests
     environment:
       # PREFORMANCE TUNING:
       # Set this to the number of physical cores on your machine.

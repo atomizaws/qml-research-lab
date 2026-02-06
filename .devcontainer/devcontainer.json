@@ -1,0 +1,17 @@
+{
+    "name": "Quantum Machine Learning Lab",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "qml-lab-v2.0",
+    "workspaceFolder": "/app",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "yzhang.markdown-all-in-one",
+                "marp-team.marp-vscode"
+            ]
+        }
+    },
+    "remoteUser": "researcher"
+}

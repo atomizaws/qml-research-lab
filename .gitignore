@@ -15,3 +15,5 @@ __pycache__/
 */outputs/*
 # datasetsフォルダ内の大容量ファイルを除外する場合（一旦すべて除外しない設定にしておきます）
 # datasets/*
+notebooks/drafts/
+notebooks/.Trash-1000
