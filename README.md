@@ -1,3 +1,4 @@
+[![QML Research Lab CI](https://github.com/atomizaws/qml-research-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/atomizaws/qml-research-lab/actions/workflows/ci.yml)
 # QML Research Lab ⚛️🧪
 
 **Quantum Machine Learning (QML) Research Lab:**
