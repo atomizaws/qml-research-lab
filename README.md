@@ -14,15 +14,31 @@ This repository follows a monorepo structure to maintain a consistent environmen
 .
 ├── datasets/                # Shared datasets and static assets
 ├── notebooks/               # Experiment notebooks (Categorized by topic)
-│   └── 01_basic_vqc_benchmark/   # Baseline VQC & CPU Performance tests
-│       ├── 01_vqc_two_moons_cpu.ipynb
-│       └── outputs/         # Experiment results (plots/logs)
+│   ├─── 01_basic_vqc_benchmark/   # Baseline VQC & CPU Performance tests
+│   │   ├── 01_vqc_two_moons_cpu.ipynb
+│   │   └── outputs/         # Experiment results (plots/logs)
+│   ├─── 02_noise_mitigation/   # Noise Robustness & Error Mitigation
+│   │   ├── 02_noise_impact_analysis.ipynb
+│   │   └── outputs/
+│   ├─── ...
+│   │   
+│   ...
+│
 ├── src/                     # Shared Python modules and utilities
 ├── Dockerfile               # Reproducible environment definition
 ├── docker-compose.yml       # Container orchestration
 └── requirements.txt         # Python dependencies
 
 ```
+
+## 📂 Research Roadmap & Archives
+
+| No. | Theme | Key Technologies | Status |
+| :--- | :--- | :--- | :--- |
+| **01** | [**Ideal VQC Simulation**](notebooks/01_ideal_vqc/) | PennyLane, PyTorch, VQC | ✅ Completed |
+| **02** | [**Noise Robustness & Error Mitigation**](notebooks/02_noise_mitigation/) | Qiskit Aer, ZNE, Noise Models | ✅ Completed |
+| **03** | *Coming Soon...* | | 🚧 Planned |
+
 
 ## 🛠 Tech Stack & Environment
 
