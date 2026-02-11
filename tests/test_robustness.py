@@ -5,7 +5,8 @@ import torch.optim as optim
 import pennylane as qml
 import numpy as np
 from sklearn.datasets import make_moons
-from qiskit_aer import noise, ReadoutError
+from qiskit_aer import noise
+from qiskit_aer.noise import ReadoutError
 import warnings
 
 # --- Configuration for Month 2 Benchmark ---
