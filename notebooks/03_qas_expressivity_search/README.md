@@ -1,4 +1,4 @@
-# Month 3: Quantum Architecture Search (QAS) for Expressivity and Barren Plateaus
+# 03: Quantum Architecture Search (QAS) for Expressivity and Barren Plateaus
 
 ## 🎯 Objective
 To overcome the "Barren Plateaus" (vanishing gradients) problem caused by deep, strongly entangled circuits, while discovering a quantum architecture (Ansatz) expressive enough to classify non-linear data using **Quantum Architecture Search (QAS)** and **Data Re-uploading**.
