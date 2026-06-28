@@ -33,11 +33,13 @@ This repository follows a monorepo structure to maintain a consistent environmen
 
 ## 📂 Research Roadmap & Archives
 
+
 | No. | Theme | Key Technologies | Status |
 | :--- | :--- | :--- | :--- |
-| **01** | [**Ideal VQC Simulation**](notebooks/01_ideal_vqc/) | PennyLane, PyTorch, VQC | ✅ Completed |
+| **01** | [**Ideal VQC Simulation**](notebooks/01_basic_vqc_benchmark/) | PennyLane, PyTorch, VQC | ✅ Completed |
 | **02** | [**Noise Robustness & Error Mitigation**](notebooks/02_noise_mitigation/) | Qiskit Aer, ZNE, Noise Models | ✅ Completed |
-| **03** | *Coming Soon...* | | 🚧 Planned |
+| **03** | [**Quantum Architecture Search & Expressivity**](notebooks/03_qas_expressivity_search/) | PennyLane, QAS (Rotoselect), Data Re-uploading | ✅ Completed |
+| **04** | *Coming Soon...* | | 🚧 Planned |
 
 
 ## 🛠 Tech Stack & Environment
